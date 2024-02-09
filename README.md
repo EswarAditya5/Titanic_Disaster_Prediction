@@ -67,3 +67,35 @@ We also include gender_submission.csv, a set of predictions that assume all and 
 ## Goal
 Predict if a passenger survived the sinking of the Titanic or not.<br>
 For each in the test set, we need to predict either 0 or 1 value for the target variable.
+
+## Steps Approached
+
+### Data Exploration:
+* Investigated the distribution of features.
+* Handled missing values and outliers.
+* Created visualizations to better understand the data
+### Data Preprocessing:
+* Encoded categorical variables.
+* Split the dataset into training and testing sets.
+### Model Selection:
+* Explored various classification models (e.g., Logistic Regression, 
+  Random Forest, Support Vector Machines).
+* Evaluated models using cross-validation.
+### Model Evaluation:
+* Evaluated the model.
+* Assessed performance metrics such as accuracy, precision, recall, and F1 
+ score.
+
+## Results
+The final model achieved an accuracy of 94% on the testing dataset. Detailed results and insights can be found in the Jupyter notebook file.
+
+### Technology used:
+<div align ='left'>
+<img src ='https://technology.amis.nl/wp-content/uploads/2020/11/image_thumb-27.png', height = "50" alt = 'Jupyter'/><img width='12'/> 
+<img src = 'https://cdn.dribbble.com/users/6569/screenshots/16471177/media/8bbfe7fd594073dc6271d5d852c7381a.png', height = "50" alt = 'Vs code'/><img width = '12'/>
+<img src = 'https://thomasjpfan.github.io/data-umbrella-2020-streamlit-slides/images/streamlit.png', height = "50" alt = 'Streamlit'/><img width = '12'/>
+<img src = 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png', height = "50" alt = 'Github'/><img width = '12'/>
+</div>
+
+
+Feel free to explore and contribute to this project! If you have any questions or suggestions, please contact me at eadityar@gmail.com
